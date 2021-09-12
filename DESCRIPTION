@@ -1,0 +1,32 @@
+Package: rKOMICS
+Title: Minicircle Sequence Cluster (MSC) Analyses
+Version: 1.2
+Date: 2021-07-26
+Authors@R: c(person("Frederik", "Van den Broeck", role = c("aut"),
+                      email = "frederik.vandenbroeck@kuleuven.be"),
+               person("Manon", "Geerts", role = c("aut", "cre"), email = "mgeerts@itg.be") )
+Description: It establishes a critical framework to manipulate, explore and extract biologically relevant information from mitochondrial minicircle assemblies in tens to hundreds of samples simultaneously and efficiently. This should facilitate research that aims to develop new molecular markers for identifying species-specific minicircles, or to study the ancestry of parasites for complementary insights into their evolutionary history. 
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+biocViews:
+Imports: 
+    ggplot2,
+    ape,
+    circlize,
+    ComplexHeatmap,
+    reshape2,
+    utils,
+    stats,
+    dplyr,
+    factoextra,
+    FactoMineR,
+    ggpubr,
+    magrittr,
+    stringr
+Suggests:
+    viridis
+Depends: 
+    R (>= 2.10)
